@@ -1,10 +1,63 @@
-#title,
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* #title,
 #date,
 #note {
   display: block;
-}
-
+} */
 .edit-btn svg,
 .delete-btn svg {
   height: 2rem;
+  margin-right: 10px;
+ 
 }
+body {
+  background-color: #800000;
+}
+.card {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+#ed {
+  text-align: center;
+   color: white;
+   font-size: 50px;
+  }
+#savebtn {
+  margin: 10px;
+  background-color: #5cb85c;
+  padding: 10px 20px;
+outline: none;
+border: none;
+}
+@media screen and (max-width: 820px) {
+  #ed {
+     font-size: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+  .row {
+    display: block;
+    justify-content: center;
+    margin: auto;
+  }
+  #ed {
+    text-align: center;
+     color: white;
+     font-size: 20px;
+}
+}
+
+
+
